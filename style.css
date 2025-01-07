@@ -25,11 +25,15 @@ body {
 main {
     background-color: var(--Light-Grayish-blue);
     min-height: 30rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 10px;
     /* margin: 5rem 0 0.7rem 0.7rem; */
  width: 90%;
     box-shadow: 15px 15px 15px var(--Gray-950);
+  }
+
+  section{
+    padding: 1rem;
   }
 
    .img-1 img{
@@ -44,12 +48,17 @@ font-size: 1rem;
    }
 
 .main-div-2-p{
-    max-width: 70%;
+    max-width: 88%;
 }
 
 .main-div-3{
     display: flex;
     padding: 1rem 0;
+}
+
+.main-div-3-div-1{
+    display: flex;
+    gap: 14px;
 }
 
 .Profile-pic{
