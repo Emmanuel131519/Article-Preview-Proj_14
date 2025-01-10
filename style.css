@@ -43,16 +43,23 @@ main {
    .main-div-2-h5{
     padding: 1rem 0;
     max-width: 70%;
-font-size: 1rem;
+font-size: 1.2rem;
+color: var(--Desaturated-Dark-Blue);
+font-weight: 700;
    }
 
 .main-div-2-p{
     max-width: 88%;
+    font-size: 13px;
+    font-weight: 500;
+
 }
 
 .main-div-3{
     display: flex;
     padding: 1rem 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-div-3-div-1{
@@ -64,6 +71,17 @@ font-size: 1rem;
     
     border-radius: 100%;
     width: 10%;
+}
+
+.Share-icon{
+    border-radius: 90%;
+    /* width: 10%; */
+
+}
+
+.main-div-3-div-2{
+    border-radius: 100%;
+    background-color: var(--Light-Grayish-blue);
 }
 
 
