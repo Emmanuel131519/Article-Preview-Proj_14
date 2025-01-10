@@ -27,9 +27,8 @@ main {
     min-height: 30rem;
     /* padding: 1rem; */
     border-radius: 10px;
-    /* margin: 5rem 0 0.7rem 0.7rem; */
  width: 90%;
-    box-shadow: 15px 15px 15px var(--Gray-950);
+
   }
 
   section{
@@ -38,7 +37,7 @@ main {
 
    .img-1 img{
     max-width: 100%;
-    width: 100%;
+    /* width: 100%; */
    }
 
    .main-div-2-h5{
@@ -65,4 +64,30 @@ font-size: 1rem;
     
     border-radius: 100%;
     width: 10%;
+}
+
+
+
+@media(min-width:765px){
+    main{
+        display: flex;
+       width: 50%;
+       min-height: 3rem;
+    }
+    
+    .img-1 img{
+         height: 100%;
+    }
+
+    .main-div-2-p{
+        max-width: 100%;
+    }
+
+    .main-div-2-h5{
+        max-width: 100%;
+       }
+
+       section{
+        padding: 2rem;
+      }
 }
